@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+<form name="details" method="post">
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+<script>
+document.getElementById("p1").innerHTML=localStorage.getItem("name");
+document.getElementById("p2").innerHTML=localStorage.getItem("email");
+document.getElementById("p3").innerHTML=localStorage.getItem("password");
+</script>
+</form>
+</body>
+</html>
